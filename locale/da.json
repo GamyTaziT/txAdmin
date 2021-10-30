@@ -1,30 +1,29 @@
-{
     "$meta": {
         "label": "Danish",
         "humanizer_language": "da"
     },
     "restarter": {
-        "start_timeout": "failed to start in time",
-        "crash_detected": "crash opdaget",
-        "hang_detected": "hang detected",
-        "partial_hang_warn": "Due to a partial hang, this server will restart in 1 minute. Please disconnect now.",
-        "partial_hang_warn_discord": "Due to a partial hang, **%{servername}** will restart in 1 minute.",
+        "start_timeout": "Fejl i opstart! - Timeout!",
+        "crash_detected": "Der opstod et - Server Crash",
+        "hang_detected": "Muligt texture tab!",
+        "partial_hang_warn": "På grund af en mulig bug genstarter denne server om 1 minut. Afbryd forbindelsen nu for at undgå ROLLBACK!.",
+        "partial_hang_warn_discord": "På grund af en mulig bug genstarter denne server om 1 minut. **%{servername}** Drik en tår kaffe før du connecter.",
         "schedule_reason": "planlagt genstart %{time}",
         "schedule_warn": "Serveren genstarter om %{smart_count} minut. Vær venlig at disconnecte nu. |||| Serveren genstarter om %{smart_count} minutter.",
         "schedule_warn_discord": "**%{servername}** genstarter om %{smart_count} minut. |||| **%{servername}** genstarter om %{smart_count} minutter."
     },
     "ban_messages": {
-        "kick_temporary": "(%{author}) You have been banned from this server for \"%{reason}\". Your ban will expire in: %{expiration}.",
-        "kick_permanent": "(%{author}) You have been permanently banned from this server for \"%{reason}\".",
-        "reject_temporary": "You have been banned from this server.\nYour ban will expire in: %{expiration}.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}.",
-        "reject_permanent": "You have been permanently banned from this server.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}."
+        "kick_temporary": "(%{author}) Du er blevet udelukket fra denne server for \"%{reason}\". Dit ban udløber om: %{expiration}.",
+        "kick_permanent": "(%{author}) Du er blevet permanent udelukket fra denne server for \"%{reason}\".",
+        "reject_temporary": "Du er blevet bannet fra byen!.\nDit ban udløber : %{expiration}.\nBan ID: %{id}.\nBan Grund: %{reason}.\nBanned Af: %{author}.",
+        "reject_permanent": "Du er blevet permanent udelukket fra denne server.\nBan ID: %{id}.\nBan Grund: %{reason}.\nBanned Af: %{author}."
     },
     "server_actions": {
-        "restarting": "Server genstarter: (%{reason}).",
-        "restarting_discord": "**%{servername}** genstarter: (%{reason}).",
+        "restarting": "Server genstarter for vedligeholdelse. (%{reason}).",
+        "restarting_discord": "**%{servername}** for vedligeholdelse. : ETA = **1 - 3 Min** - (%{reason}).",
         "stopping": "Serveren er stoppet (%{reason}).",
-        "stopping_discord": "**%{servername}** er lukket ned: (%{reason}).",
-        "spawning_discord": "**%{servername}** starter."
+        "stopping_discord": "*Ekstraordinær server vedligeholdelse* **%{servername}** Opdateres og er midlertidig lukket ned : ETA **Ukendt** (%{reason}).",
+        "spawning_discord": "**%{servername}** Er nu online igen! Vi beklager ventetiden! :/."
     },
     "discord": {
         "status_online": "**%{servername}** er **Online**!",
@@ -33,6 +32,6 @@
     "nui_warning": {
         "title": "ADVARSEL",
         "warned_by": "Advaret af:",
-        "instruction": "Hold [SPACE] nede i 10 sekunder for at afvise denne meddelelse."
+        "instruction": "Hold [SPACE] Nede i 10 sekunder for at afvise denne meddelelse."
     }
 }
