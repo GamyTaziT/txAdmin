@@ -4,20 +4,20 @@
         "humanizer_language": "da"
     },
     "restarter": {
-        "start_timeout": "failed to start in time",
-        "crash_detected": "crash opdaget",
-        "hang_detected": "hang detected",
-        "partial_hang_warn": "Due to a partial hang, this server will restart in 1 minute. Please disconnect now.",
-        "partial_hang_warn_discord": "Due to a partial hang, **%{servername}** will restart in 1 minute.",
-        "schedule_reason": "planlagt genstart %{time}",
+        "start_timeout": "Der opstod en fejl ved opstart af serveren.",
+        "crash_detected": "Server crash opstået!",
+        "hang_detected": "Stor nedgang i server ydelsen opstået.",
+        "partial_hang_warn": "Grundet stort datatab genstartes serveren om 1 Minut!. Venligst forlad byen for ikke at miste genstande.",
+        "partial_hang_warn_discord": "Grundet stort datatab genstartes **%{servername}** om 1 Minut!. Venligst forlad byen for ikke at miste genstande",
+        "schedule_reason": "Planlagt Genstart: %{time}",
         "schedule_warn": "Serveren genstarter om %{smart_count} minut. Vær venlig at disconnecte nu. |||| Serveren genstarter om %{smart_count} minutter.",
         "schedule_warn_discord": "**%{servername}** genstarter om %{smart_count} minut. |||| **%{servername}** genstarter om %{smart_count} minutter."
     },
     "ban_messages": {
-        "kick_temporary": "(%{author}) You have been banned from this server for \"%{reason}\". Your ban will expire in: %{expiration}.",
-        "kick_permanent": "(%{author}) You have been permanently banned from this server for \"%{reason}\".",
-        "reject_temporary": "You have been banned from this server.\nYour ban will expire in: %{expiration}.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}.",
-        "reject_permanent": "You have been permanently banned from this server.\nBan ID: %{id}.\nBan Reason: %{reason}.\nBanned by: %{author}."
+        "kick_temporary": "(%{author}) Du er blevet bortvist (Banned) \"%{reason}\". Dit forbud udløber: %{expiration}.",
+        "kick_permanent": "(%{author}) Du er permanent bortvist (Banned) fra byen!. Grund : \"%{reason}\"Accepteres ikke.",
+        "reject_temporary": "Du er blevet bortvist (Banned).\nDit ban udløber: %{expiration}.\nBan ID: %{id}.\nBan Grund: %{reason}.\nBanned Af: %{author}.",
+        "reject_permanent": "Du er permanent bortvist (Banned) fra byen!..\nBan ID: %{id}.\nBan Grund: %{reason}.\nBanned Af: %{author}."
     },
     "server_actions": {
         "restarting": "Server genstarter: (%{reason}).",
@@ -33,230 +33,230 @@
     "nui_warning": {
         "title": "ADVARSEL",
         "warned_by": "Advaret af:",
-        "instruction": "Hold [SPACE] nede i 10 sekunder for at afvise denne meddelelse."
+        "instruction": "Tryk & Hold [MELLEMRUM] Nede i 10 Sek for at fjerne denne meddelelse."
     },
     "nui_menu": {
         "misc": {
-            "help_message": "txAdmin has gotten an in-game menu!\nBind [Game Settings > Key Bindings > FiveM > Open the txAdmin Menu] to try it out!",
-            "menu_not_allowed": "Your identifiers do not match any admin registered on txAdmin.\nIf you are registered on txAdmin, go to Admin Manager and make sure your identifiers are saved.",
-            "action_unauthorized": "You do not have this permission.",
-            "unknown_error": "An unknown error occurred.",
-            "not_enabled": "The txAdmin Menu is not enabled! Please check the docs for more info.",
-            "announcement_title": "Server Announcement:",
-            "general_no_perms": "You do not have permissions for this!"
+            "help_message": "txAdmin Har en Ingame Menu.\nBind [Game Settings > Key Bindings > FiveM > Åben txAdmin Menu] Tjek den ud!",
+            "menu_not_allowed": "Dit ID passer ikke på nogle admins registreret i txAdmin.\nHvis du er registreret i txAdmin, Gå til Admin Manager og tjek om dine identifiers er korrekt gemt.",
+            "action_unauthorized": "Du har ikke perms til dette! Undlad venligst at forsøge dette igen.",
+            "unknown_error": "En ukendt fejl opstod.",
+            "not_enabled": "txAdmin Menu er ikke aktiveret! Venligst læs docs for mere information.",
+            "announcement_title": "Server Meddelese:",
+            "general_no_perms": "Du har ikke perms til dette! Undlad venligst at forsøge dette igen."
         },
         "common": {
-            "cancel": "Cancel",
-            "submit": "Submit",
-            "error": "An error occurred",
-            "copied": "Copied to clipboard"
+            "cancel": "Afbryd",
+            "submit": "Bekræft",
+            "error": "En fejl opstod",
+            "copied": "Kopieret til udklipsholderen, Benyt CTRL + V for at indsætte det i et dokument."
         },
         "page_main": {
             "tooltips": {
-                "tooltip_1": "Use %{key} to switch pages & the arrow keys to navigate menu items",
-                "tooltip_2": "Certain menu items have sub options which can be selected using the left & right arrow keys"
+                "tooltip_1": "Brug %{key} til at skifte side & piltasterne til menu punkter.",
+                "tooltip_2": "Visse menupunkter har underpunkter, disse kan vælges ved brug af venstre og højre piletast."
             },
             "fix_vehicle": {
-                "list_primary": "Fix Vehicle",
-                "list_secondary": "Set current vehicle health to 100%",
-                "dialog_success": "Vehicle fixed!",
-                "dialog_error": "You are not currently in a vehicle!"
+                "list_primary": "Fix Køretøj",
+                "list_secondary": "Indstiller nuværende køretøjstilstand til 100%",
+                "dialog_success": "Så god som ny!",
+                "dialog_error": "Du er ikke i noget køretøj!"
             },
             "teleport": {
-                "list_primary": "Teleport",
-                "item_waypoint": "To: Waypoint",
-                "item_coords": "To: Coordinates",
-                "item_previous": "To: Previous Location",
-                "dialog_title": "Teleport",
-                "dialog_desc": "Provide coordinates in an x, y, z format to go through the wormhole",
-                "dialog_success": "Sent you into the wormhole!",
-                "dialog_error": "Invalid coordinates. Must be in the format of: 111, 222, 33"
+                "list_primary": "Teleporter",
+                "item_waypoint": "Til: GPS Punkt",
+                "item_coords": "Til: Koordinater.",
+                "item_previous": "Tilbage til forrige detstination",
+                "dialog_title": "Teleporter",
+                "dialog_desc": "Indtast korrdinat i x, y, z format for at teleportere til det valgte koordinat.",
+                "dialog_success": "Ankommet til Destinationen!",
+                "dialog_error": "Ugyldig Korrdinat. Sørg for at have det i format lign: 111, 222, 33"
             },
             "teleport_back": {
-                "list_primary": "Go Back",
-                "list_secondary": "Teleport to your last location",
-                "error": "You don't have a last location to teleport to!",
-                "success": "Returning through the wormhole!"
+                "list_primary": "Rejs Tilbage",
+                "list_secondary": "Teleport til seneste lokation.",
+                "error": "Der er ikke registreret nogle teleporteringer. Denne funktion er beregnet til at rejse tilbage til udgangspunktet!",
+                "success": "Rejser tilbage!"
             },
             "player_mode": {
-                "list_primary": "Player Mode",
-                "list_secondary": "Current: %{mode}",
+                "list_primary": "Spiller Indstilling",
+                "list_secondary": "Nuværende: %{mode}",
                 "item_none": "Normal",
                 "item_noclip": "Noclip",
-                "item_godmode": "God Mode",
-                "dialog_success_none": "Returned to default player mode",
-                "dialog_success_noclip": "Noclip enabled",
-                "dialog_success_godmode": "God mode enabled"
+                "item_godmode": "Udødelig",
+                "dialog_success_none": "Vendt tilbage til normal",
+                "dialog_success_noclip": "Noclip Aktiveret",
+                "dialog_success_godmode": "Udødelighed Aktiveret"
             },
             "spawn_wep": {
-                "list_primary": "Spawn Weapon",
-                "list_secondary": "Add a weapon to yourself",
-                "dialog_title": "Spawn Weapon",
-                "dialog_desc": "Spawn a weapon using its model name."
+                "list_primary": "Fremkald Våben",
+                "list_secondary": "Tilføjer et våben til dit inventar.",
+                "dialog_title": "Fremkald Våben",
+                "dialog_desc": "Fremkald et våben ved brug af model nummer."
             },
             "spawn_veh": {
-                "list_primary": "Spawn Vehicle",
-                "list_secondary": "Spawn a vehicle by model name",
-                "dialog_title": "Spawn Vehicle",
-                "dialog_desc": "Enter in the model name of the vehicle you want to spawn",
-                "dialog_success": "Vehicle spawned!",
-                "dialog_error": "The vehicle model name '%{modelName}' does not exist!",
-                "dialog_info": "Trying to spawn %{modelName}",
-                "onesync_error": "This option requires that OneSync be on for server side spawning"
+                "list_primary": "Fremkald Køretøj",
+                "list_secondary": "Benyt Køretøjets Model Navn",
+                "dialog_title": "Fremkald Køretøj",
+                "dialog_desc": "Indtast Navn på det ønskede køretøj.",
+                "dialog_success": "Køretøjet blev hentet.!",
+                "dialog_error": "Der er ingen køretøjer registreret i databasen ved navn : '%{modelName}' Venligst tjek om din indtastning er korrekt.!",
+                "dialog_info": "Forsøger at hente køretøj VIA Model Navn: %{modelName}",
+                "onesync_error": "Denne indstilling kræver at OneSync skal være aktiveret for server side fremkaldning"
             },
             "heal_all": {
-                "list_primary": "Heal All Players",
-                "list_secondary": "Will heal & revive all players",
-                "dialog_success": "Healed and revived all players"
+                "list_primary": "Helbred Alle Borgere",
+                "list_secondary": "Helbreder & Genopliver ALLE Online Spillere",
+                "dialog_success": "Alle borgere er lykkelige igen."
             },
             "heal_myself": {
-                "list_primary": "Heal Self",
-                "list_secondary": "Restores your health",
-                "dialog_success_0": "All healed up!",
-                "dialog_success_1": "You should be feeling good now!",
-                "dialog_success_2": "Restored to full!",
-                "dialog_success_3": "Ouchies fixed!"
+                "list_primary": "Helbred (MIG)",
+                "list_secondary": "Fylder dit liv til 100%",
+                "dialog_success_0": "Du er nu Sund og Rask igen!",
+                "dialog_success_1": "Du burde være i topform igen!",
+                "dialog_success_2": "MAX LIV! Men shh folk bliver sure.",
+                "dialog_success_3": "Alle dine små usynlige skader blev behandlet med placebo! Du er rask igen!"
             },
             "send_announce": {
-                "list_primary": "Send Announcement",
-                "list_secondary": "Announce a message",
-                "dialog_title": "Send Announcement",
-                "dialog_desc": "Send an announcement to all online players",
-                "dialog_success": "Sending the announcement"
+                "list_primary": "Send Server Meddelelse",
+                "list_secondary": "Send en Admin Annonce",
+                "dialog_title": "Send Server Meddelelse",
+                "dialog_desc": "Sender en annonce ud til ALLE online borgere.",
+                "dialog_success": "Sender Meddelse. . ."
             },
             "player_ids": {
-                "list_primary": "Toggle Player ID's",
-                "list_secondary": "Will display nearby players NetID's",
-                "alert_show": "Showing nearby player NetID's",
-                "alert_hide": "Hiding nearby player NetID's"
+                "list_primary": "Vis Borger ID's",
+                "list_secondary": "Dette vil synliggøre borgere i nærhedens NetID's",
+                "alert_show": "Viser Borgernes - NetID's",
+                "alert_hide": "Skjuler Borgernes - NetID's"
             },
             "copy_coords": {
-                "list_primary": "Copy Coords",
-                "list_secondary": "Copies current coords to clipboard"
+                "list_primary": "Gem Koordinater",
+                "list_secondary": "Sender en kopi af nøjagtig koordinat til din udklipsholder."
             }
         },
         "page_players": {
             "misc": {
-                "online_players": "Online Players",
-                "players": "Players",
-                "search": "Search",
-                "zero_players": "No players found"
+                "online_players": "Online Antal",
+                "players": "Borgere",
+                "search": "Søg",
+                "zero_players": "Ingen Borgere fundet!"
             },
             "sort": {
-                "label": "Sort by",
-                "distance": "Distance",
+                "label": "Sorter efter:",
+                "distance": "Afstand",
                 "id": "ID",
-                "joined_first": "Joined First",
-                "joined_last": "Joined Last",
-                "closest": "Closest",
-                "farthest": "Farthest"
+                "joined_first": "Første Tilsluttet",
+                "joined_last": "Seneste Tilsluttet",
+                "closest": "Nærmeste",
+                "farthest": "Fjerneste"
             },
             "card": {
-                "health": "%{percentHealth}% health"
+                "health": "%{percentHealth}% Liv"
             }
         },
         "player_modal": {
             "tabs": {
-                "actions": "Actions",
-                "info": "Info",
+                "actions": "Handlinger",
+                "info": "Information",
                 "ids": "IDs",
-                "history": "History",
+                "history": "Historie",
                 "ban": "Ban"
             },
             "actions": {
-                "title": "Player Actions",
-                "command_sent": "Command sent!",
+                "title": "Borger Handlinger",
+                "command_sent": "Kommando Afsendt!",
                 "sections": {
-                    "moderation": "Moderation",
-                    "interaction": "Interaction",
+                    "moderation": "Modertion",
+                    "interaction": "Handling",
                     "troll": "Troll"
                 },
                 "moderation": {
                     "dm_dialog": {
-                        "title": "Direct Message",
-                        "description": "What is the reason for direct messaging this player?",
-                        "placeholder": "Reason...",
-                        "dm_sent": "Your DM has been sent!"
+                        "title": "Privat Besked!",
+                        "description": "Angiv grund for at kontakte borgeren via Admin Menuen?",
+                        "placeholder": "Grund...",
+                        "dm_sent": "Beskeden blev afsendt!"
                     },
                     "warn_dialog": {
-                        "title": "Warn",
-                        "description": "What is the reason for direct warning this player?",
-                        "placeholder": "Reason...",
-                        "warn_sent": "The player was warned!"
+                        "title": "Advarsel!",
+                        "description": "Angiv grund for advarsel?",
+                        "placeholder": "Grund...",
+                        "warn_sent": "Borgeren har modtaget sin advarsel!"
                     },
                     "kick_dialog": {
-                        "title": "Kick",
-                        "description": "What is the reason for kicking this player?",
-                        "placeholder": "Reason...",
-                        "kick_sent": "The player was kicked!"
+                        "title": "Smid ud (Kick)",
+                        "description": "Angiv grunden til at denne borger skal smides ud?",
+                        "placeholder": "Grund...",
+                        "kick_sent": "Borgeren blev sparket ud! Han kan stadig logge ind igen."
                     },
                     "options": {
-                        "dm": "DM",
-                        "warn": "Warn",
+                        "dm": "PM",
+                        "warn": "Advarsel",
                         "kick": "Kick",
-                        "set_admin": "Give Admin",
-                        "heal": "Heal",
-                        "go_to": "Go to",
-                        "bring": "Bring",
-                        "spectate": "Spectate"
+                        "set_admin": "Giv Admin",
+                        "heal": "Helbred",
+                        "go_to": "Rejs Til",
+                        "bring": "TP til dig",
+                        "spectate": "Overvåg / Spectate"
                     },
                     "action_notifications": {
-                        "heal_player": "Healing player",
-                        "tp_player": "Teleporting to player",
-                        "bring_player": "Summoning player"
+                        "heal_player": "Helbreder Borgeren",
+                        "tp_player": "Teleportere til Borgeren",
+                        "bring_player": "Henter borgeren til dig."
                     }
                 },
                 "interaction": {
                     "options": {
-                        "heal": "Heal",
-                        "go_to": "Go to",
-                        "bring": "Bring",
-                        "spectate": "Spectate"
+                        "heal": "Helbred",
+                        "go_to": "Rejs",
+                        "bring": "Hent",
+                        "spectate": "Overvåg"
                     }
                 },
                 "troll": {
                     "options": {
-                        "weed": "Weed",
-                        "weed_desc": "Will apply a 'weed' effect to the player",
-                        "fire": "Fire",
-                        "fire_desc": "Will set the player on fire",
-                        "drunk": "Drunk",
-                        "drunk_desc": "Will apply a 'drunk' effect to the player",
-                        "wild_attack": "Wild attack",
-                        "wild_attack_desc": "Will spawn a random wild animal to attack the player"
+                        "weed": "Joint",
+                        "weed_desc": "Tvinger borgeren til at ryge en 'joint' Effekten varer 60 Sek",
+                        "fire": "Brandmand",
+                        "fire_desc": "Dette vil sætte ild til borgeren. Husk dog at personen dør af det.",
+                        "drunk": "Spiritus",
+                        "drunk_desc": "Efterlader borgeren i en stærk beruset tilstand. Effekten varer 60 Sek",
+                        "wild_attack": "Natur Angreb",
+                        "wild_attack_desc": "Dette vil fremkalde et tilfædligt men aggresivt dyr foran Borgeren"
                     }
                 }
             },
             "info": {
-                "title": "Player info",
-                "session_time": "Session Time",
-                "play_time": "Play time",
-                "joined": "Joined",
-                "notes_placeholder": "Notes about this player"
+                "title": "Borger Info",
+                "session_time": "Session Tid",
+                "play_time": "Total Tid",
+                "joined": "Tilmeldt",
+                "notes_placeholder": "Note omkring Borgeren"
             },
             "history": {
-                "title": "Related history"
+                "title": "Historie"
             },
             "ban": {
                 "action_types": {
-                    "warn": "WARNED",
-                    "warn_revoked": "REVOKED the WARN for",
-                    "kick": "KICKED",
-                    "ban": "BANNED",
-                    "ban_revoked": "REVOKED the BAN for",
+                    "warn": "ADVARET",
+                    "warn_revoked": "Fjernede ADVARSEL fra",
+                    "kick": "KICKEDE",
+                    "ban": "BANNEDE",
+                    "ban_revoked": "FJERNEDE aktivt BAN fra",
                     "whitelist": "WHITELIST",
-                    "whitelist_revoked": "REVOKED the WHITELIST for"
+                    "whitelist_revoked": "FJERNEDE WHITELIST fra"
                 },
-                "title": "Ban player",
-                "reason_placeholder": "Reason",
-                "duration_placeholder": "Duration",
-                "hours": "hours",
-                "days": "days",
-                "weeks": "weeks",
-                "months": "months",
+                "title": "Ban Borger",
+                "reason_placeholder": "Grund",
+                "duration_placeholder": "Varighed",
+                "hours": "Timer",
+                "days": "Dage",
+                "weeks": "Uger",
+                "months": "Måneder",
                 "permanent": "Permanent",
-                "custom": "Custom",
-                "helper_text": "Please select a duration"
+                "custom": "Bruger defineret",
+                "helper_text": "Venligst Indtast Varighed"
             }
         }
     }
